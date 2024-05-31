@@ -85,7 +85,7 @@ The dataset should be a CSV file containing the following columns:
 
 ## 7. Model 📈
 
-The model used for prediction is a machine learning regression model. Various models such as Linear Regression, Random Forest, and Gradient Boosting are explored to find the best performing one.
+The model used for prediction is a machine learning regression model. Various models such as Linear Regression, Random Forest are explored to find the best performing one.
 
 ## 8. Evaluation 📉
 
