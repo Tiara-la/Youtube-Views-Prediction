@@ -54,7 +54,7 @@ Predicting the number of views a YouTube video will get can be valuable for cont
 
 ## 4. Usage 🔨
 
-1. **Data Preparation**: Prepare your dataset in a CSV file with the required columns (e.g., title, description, tags, etc.).
+1. Prepare your dataset in a CSV file with the required columns (e.g., title, description, tags, etc.).
 2. You can find the dataset [here](https://www.kaggle.com/datasets/datasnaek/youtube-new?select=IN_category_id.json)
 3. Make sure you already installed the requirements.txt library
 4. Run the notebook
@@ -91,7 +91,7 @@ The model used for prediction is a machine learning regression model. Various mo
 
 Model performance is evaluated using the following metrics:
 
-- **Mean Absolute Error (MAE)**: Measures the average magnitude of errors in a set of predictions, without considering their direction.
+- **Root Mean Squared Error (RMSE)**: RMSE gives you an idea of how far off your model's predictions are from the actual values, with a lower RMSE indicating a better fit.
 - **R-squared (R²)**: Indicates how well the data fit the regression model.
 
 ## 9. Contributing 🫂
